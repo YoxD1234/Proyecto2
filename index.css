@@ -34,7 +34,8 @@ a{
     padding-left: 20px;
 }
 .carta1 img{
-    width: 120px;
+    width: 100%;
+    border-radius: 6px;
 }
 .carta1{
     height: 28vh;
@@ -43,18 +44,18 @@ a{
     justify-content: center;
     align-items: center;
     background:linear-gradient(180deg,rgb(43, 172, 189) 50%,white 50%) ;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .contenido1{
     border-radius: 6px;
     border: 1px solid rgb(241, 187, 120);
     margin: 40px;
-    padding: 12px 58px;
+    padding: 0px 0px;
     background: rgb(9, 81, 121,.2);
 }
 .contenido1:hover{
-    padding: 16px 62px;
+    transform: scale(1.1);
 }
 .main{
     padding-top: 18px;
@@ -78,11 +79,11 @@ a{
     font-size: 30px;
 }
 .main-dos{
-    grid-column: 9/13;
+    grid-column: 8/13;
     grid-row: 1/3;
 }
 .main-dos img{
-    width: 410px;
+    width: 420px;
 }
 .galeria {
     color: white;
